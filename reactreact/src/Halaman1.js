@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import Content from './Content'
+
 class Halaman1 extends Component {
   constructor(props) {
     super(props)
@@ -35,9 +37,7 @@ class Halaman1 extends Component {
           />
           {this.title()}
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Content kiriman={100000000000000000}/>
       </div>
     )
   }
